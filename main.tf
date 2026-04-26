@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-east-2"
+  profile = "AdministratorAccess-546079882328"
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
